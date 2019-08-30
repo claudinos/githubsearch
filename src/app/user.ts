@@ -1,9 +1,3 @@
 export class User {
-    constructor(
-        public user: any,
-        public repos: any,
-        public userName: string
-    ) { 
-        
-    }
+    constructor(public name:string, public bio:string ,public location:string,public avatar_url:string ){}
 }

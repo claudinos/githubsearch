@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./git-pro.component.css']
 })
 export class GitProComponent implements OnInit {
-  @Input() githubUser: User;
+  githubUser: User;
   constructor(private http:HttpClient) { }
 
   ngOnInit() {

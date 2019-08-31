@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { GitProComponent } from '../app/git-pro/git-pro.component';
-
+import { FormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { GitProComponent } from '../app/git-pro/git-pro.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

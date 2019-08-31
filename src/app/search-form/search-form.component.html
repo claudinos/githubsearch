@@ -3,19 +3,23 @@
       <div class="col-md-3 ">
           <p><b>Github Search Profile</b></p>
       </div>
-      <div class=" col-md-6">
+      
 
-          <form id="searchForm">
-              <div class="form-group">
+          <!-- <form id="searchForm"> -->
+            
                   <div class="input-group">
-                      <input type="text" name="username" class="form-control" placeholder="Enter A Github Username...">
-                      
+                      <!-- <input type="text" name="username" [(ngModel)]="username"> -->
+                      <input type="text" [(ngModel)]="username" >
+                      <button (click)="search()">search</button>
                   </div>
-                </div>
-          </form>
-      </div>
-       <div class="col-md-3">
-           <a href="https://github.com/claudinos"><i class="fa fa-github" aria-hidden="true"></i> Github</a>  
-      </div>
+        <!-- </form> -->
   </div>
-    
+       
+  <img src="{{answer.avatar_url}}" alt="">
+  <p class="hello">login:{{answer?.login}}</p>
+  <p class="hello">name:{{ answer?.name}}</p>
+  <p class="hello">bio:{{ answer?. bio}}</p>
+  <p class="hello">location:{{ answer?.location}}</p>
+  <p class="hello">created_at:{{ answer?.created_at|date}}</p>
+  <!-- <p class="hello">public_repos:{{ answer.public_repos}}</p> -->
+  

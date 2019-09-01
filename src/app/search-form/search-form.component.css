@@ -6,4 +6,6 @@
     .card-footer{
         width: 500px;
     }
-    
+    .well{
+        background-color: aliceblue;
+    }

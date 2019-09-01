@@ -1,32 +1,30 @@
-import { Component, OnInit,Input, Output, EventEmitter  } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
 import {Repository} from '../repository'
 // import { Search } from '../search';
-// import{SearchServiceService} from '../search-service.service'
-import { HttpClient } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http'
+import {GitRequestService} from '../git-http/git-request.service';
 @Component({
   selector: 'app-search-form',
   templateUrl: './search-form.component.html',
   styleUrls: ['./search-form.component.css']
 })
 export class SearchFormComponent implements OnInit {
-  username:string; 
+username:string; 
  answer:any;
+ repos:any;
+ public githubUser:string;
 
-  // @Input() githubUser: Search;
-  // @Output() userUpdated: EventEmitter<Search> = new EventEmitter<Search>();
-
-  constructor(private http:HttpClient) {
+  constructor(private http:HttpClient,private service:GitRequestService ) {
 
    }
 
   ngOnInit() {
   }
 search(){
-this.http.get('https://api.github.com/users/'+ this.username +"?access_token=4a5502cd664dd7cb15b98c867b5685845dabf573")
-.subscribe((answer)=> {
+  // this service.GitRequest
+this.http.get('https://api.github.com/users/'+ this.username +"?access_token=4a5502cd664dd7cb15b98c867b5685845dabf573").subscribe((answer)=> {
 
 this.answer=answer;
-console.log(this.answer)
 })
 }
 }

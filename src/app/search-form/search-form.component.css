@@ -1,7 +1,9 @@
-#searchForm .form-group{
-    margin-bottom: 0;
-}
-#searchForm .form-control{
-    border:black;
-     height:38px;
+
+
+    #identity {
+      text-align: start;
     }
+    .card-footer{
+        width: 500px;
+    }
+    

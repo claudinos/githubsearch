@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
-  // apiUrl:"https://api.github.com/users/claudinos?access_token=4a5502cd664dd7cb15b98c867b5685845dabf573"
+  production: false,
+  apiUrl:"https://api.github.com/users"
 };
 
 /*

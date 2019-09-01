@@ -8,7 +8,9 @@ import {environment}from '../../environments/environment'
 })
 export class GitRequestService {
 search=Search;
-  constructor(private http:HttpClient,private service:GitRequestService) { }
+  constructor(private http:HttpClient) { 
+    GitRequestService
+  }
 }
 // ApiRequest(){
 // interface ApiResponse{

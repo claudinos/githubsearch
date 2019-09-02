@@ -1,7 +1,5 @@
 import { Component, OnInit,Input } from '@angular/core';
-import {User} from '../user';
 import { HttpClient } from '@angular/common/http';
-import {Repository} from '../repository'
 import {GitRequestService} from '../git-http/git-request.service'
 
 
@@ -15,10 +13,7 @@ export class GitProComponent implements OnInit {
   public githubUser:string;
   user:any;
   repo:any;
-  // gitSearch:GitSearch;
-
-
- 
+  
   constructor(private http:HttpClient,private service:GitRequestService) { 
   }
 

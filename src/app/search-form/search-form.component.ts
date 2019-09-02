@@ -1,5 +1,4 @@
 import { Component, OnInit  } from '@angular/core';
-import {Repository} from '../repository'
 
 import { HttpClient } from '@angular/common/http'
 import {GitRequestService} from '../git-http/git-request.service';

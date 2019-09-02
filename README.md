@@ -46,3 +46,12 @@ Webside app that helps you to find everyone who have a github account and see ev
     *BOOTSTRAP
     *NETWORK connection
 
+ ## BDD
+
+ **Input username**
+
+ * username must be a string
+
+ * Then click submit
+
+ 

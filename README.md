@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # githubsearch
 ### by **claudine umuhire**
 ## DESCRIPTION
-###githubsearch
+### githubsearch
 Webside app that helps you to find everyone who have a github account and see everything you want related to that person and visit her/his profile
 ## SETUP INSTALLATION REQUIRED
     *UBUNTU

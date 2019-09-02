@@ -38,4 +38,11 @@ Webside app that helps you to find everyone who have a github account and see ev
     *Angular
     *node.js
 
- 
+ ## TECHNOLOGY USED 
+    *HTML 
+    *CSS 
+    *JAVA SCRIPT
+    *ANGULAR
+    *BOOTSTRAP
+    *NETWORK connection
+

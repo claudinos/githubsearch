@@ -54,4 +54,7 @@ Webside app that helps you to find everyone who have a github account and see ev
 
  * Then click submit
 
+ **output**
+ * According to the input you have inserted* the output must be the everything you want to know about the username you use 
+
  

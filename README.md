@@ -25,6 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
 # githubsearch
 ### by **claudine umuhire**
 ## DESCRIPTION
@@ -55,7 +56,7 @@ Webside app that helps you to find everyone who have a github account and see ev
  * Then click submit
 
  **output**
- * According to the input you have inserted* the output must be the everything you want to know about the username you use 
+ * According to the input you have inserted the output must be the everything you want to know about the username you use 
 
  ## MY PROJECT LINK
  
